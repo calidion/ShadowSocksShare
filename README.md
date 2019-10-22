@@ -84,6 +84,27 @@
 - `MODE`: 设置为 `strict` 后开启严格模式，将会检测robots.txt，如果不允许则不会进行爬虫
 - `PORT`: 服务器运行端口
 
+### 安装基本环境
+
+Ubuntu:
+
+```
+
+sudo apt-get install libzbar-dev python3-pip
+
+```
+
+
+### 安装依赖包
+
+```
+pip/pip3 install Flask-Script cfscrape js2py regex bs4 zbar-py parse apscheduler
+```
+
+
+
+
+
 ### 运行：
 
 本地运行：
